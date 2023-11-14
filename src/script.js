@@ -106,13 +106,13 @@ gui
 gui
   .add(parameters, "size")
   .min(0.001)
-  .max(0.1)
+  .max(0.01)
   .step(0.001)
   .onFinishChange(generateGalaxy);
 gui
   .add(parameters, "radius")
   .min(1)
-  .max(90)
+  .max(40)
   .step(0.1)
   .onFinishChange(generateGalaxy);
 gui
